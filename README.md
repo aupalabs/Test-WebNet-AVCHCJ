@@ -4,7 +4,7 @@
 
 # Examen para Sitio Web con HTML, CSS, Javascript
 
-Realizar una pagina web con HTML, CSS, Javascript en la cual haga el consumo del api de https://openlibrary.org/developers/api
+Realizar una pagina web con HTML, CSS, Javascript y PHP en la cual haga el consumo del api de https://openlibrary.org/developers/api
 
 La pagina web debe contener:
 
@@ -12,11 +12,13 @@ La pagina web debe contener:
 * seccion de despliegue de libros/trabajos encontrados en la busqueda (con foto de portada, titulo y boton de ir a detalles)
 * pagina de detalle, con la informacion del libro > portada, autor, informacion, editoriales, etc
 * footer con recomendaciones de libros/autores
-* pagina de contacto con formulario (nombre, email y mensaje) para simulacion de envio de correo. (no es necesario enviar email)
-* seccion de redes sociales
+* pagina de contacto con formulario (nombre, email y mensaje) para simulacion de envio de correo. (no es necesario enviar email, pero si guardar información en BD)
+* seccion de redes sociales, solo iconos con liga a url de la red socíal
 * registro de usuarios
 * gestion de usuarios (listado, edicion, borrado logico)
 * inicio de sesion
+* consumo de servicios realizarlo por backend
+* incluir scripts para creación de BD
 
 
 No requerido pero deseable
@@ -25,6 +27,5 @@ No requerido pero deseable
 * Angular
 * Request Async (ajax, fetch)
 * Ajax
-* PHP 
 * JWT
 * POO
